@@ -8,6 +8,7 @@
   text-align: center;
   padding-bottom: 118px;
   padding-top: 118px;
+  margin-bottom: 60px;
   
   
 }
@@ -74,6 +75,7 @@
 @media screen and(min-width: 1200px) {
     .hero{
         background-size: 1200px;
+        margin-bottom: 94px;
     background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)

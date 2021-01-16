@@ -47,6 +47,19 @@ img {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -79,6 +92,7 @@ img {
   text-align: center;
   padding-bottom: 118px;
   padding-top: 118px;
+  margin-bottom: 60px;
 }
 
 .hero__title {
@@ -129,6 +143,7 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     background-size: 1200px;
+    margin-bottom: 94px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/header-des.jpg");
   }
   .hero__title {
@@ -141,5 +156,34 @@ img {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/header-des@2x.jpg");
   }
+}
+
+.advantages__icon {
+  width: 450px;
+  height: 120px;
+  padding: 25px 190px 25px 190px;
+  margin-bottom: 10px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.advantages__title {
+  text-align: center;
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+}
+
+.advantages__text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 0px;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */
