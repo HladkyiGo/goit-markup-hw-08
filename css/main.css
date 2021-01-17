@@ -366,4 +366,13 @@ img {
     background-color: #fff;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .team {
+    display: flex;
+  }
+  __item {
+    width: 342px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
