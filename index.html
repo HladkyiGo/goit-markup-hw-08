@@ -19,12 +19,22 @@
 
   <body>
     <!---Шапка -->
-    <!-- <header class="header">
+    <header class="header">
     <div class="container">
       <nav class="site-nav">
         <a href="" class="logo"><span class="logo-accent">Web</span><span class="logo-studio">Studio</span>
         </a>
+<button type="button" class="menu-button is-open"
+ data-menu-button
+ aria-expanded="false">
+  <svg width="40" height="40">
+    <use class="icon-close" href="./svg/sprite.svg#close"></use>
+    <use class="icon-menu" href="./svg/sprite.svg#menu"></use>
+  </svg>
+</button>
 
+<div class="mob-menu is-open" data-menu>
+      <div class="navigation">
         <ul class="site-nav__item list">
           <li class="site-nav__menu">
             <a href="./index.html" class="site-nav__link line current">Студия</a>
@@ -36,25 +46,30 @@
             <a href="" class="site-nav__link line">Контакты</a>
           </li>
         </ul>
-      </nav>
+      </div>
+      <div class="contact">
       <ul class="contacts list">
-         Ссылка на адрес электронной почты  -->
-    <!-- <li class="contacts__item">
+       
+   
+        <li class="contacts__item">
           <a href="mailto:gladkoi3@gmail.com" class="contacts__link ">
             <svg class="contacts__mail">
               <use href="./svg/sprite.svg#senvelope" ></use>
             </svg>gladkoi3@gmail.com</a>
-        </li> -->
-    <!-- Ссылка на телефонный номер -->
-    <!-- <li class="contacts__item">
+        </li> 
+    
+    <li class="contacts__item">
           <a href="tel:+380961111111" class="contacts__link ">
             <svg class="contacts__tel">
               <use href="./svg/sprite.svg#smartphone"></use>
             </svg>+38(096) 111-11-11</a>
         </li>
       </ul>
+      
     </div>
-  </header> -->
+    
+    </div>
+  </header>
     <!--Решение бизнеса -->
 
     <!-- Герой -->
@@ -151,10 +166,10 @@
           <div class="product-thumb">
             <a href=""></a>
             <picture>
-              <source srcset="./img/box-des2.webp 1x, ./img/box-des2@2x.webp 2x"
+              <source srcset="./img/boxdes2.webp 1x, ./img/box-des2@2x.webp 2x"
               type="image/webp">
               <source srcset="./img/box-des2.jpg 1x, ./img/box-des2@2x.jpg 2x">
-                <img src="./img/box-des2.jpg" alt="" width="370" height="294" />
+                <img src="./img/boxdes2.jpg" alt="" width="370" height="294" />
             </picture>
             <div class="work__wrapper">
               <p class="work__text">МОБИЛЬНЫЕ ПРИЛОЖЕННИЯ</p>
