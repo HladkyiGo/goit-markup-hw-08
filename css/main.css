@@ -1182,7 +1182,6 @@ img {
   }
   .project__item {
     display: inline-block;
-    width: 450px;
     margin-bottom: 30px;
   }
 }
