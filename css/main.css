@@ -236,6 +236,10 @@ img {
   display: none;
 }
 
+.mob-menu {
+  z-index: 10;
+}
+
 @media screen and (max-width: 767px) {
   .mob-menu {
     width: 480px;
