@@ -14,7 +14,7 @@
   }
   
   &__title {
-    text-align: center;
+    
         color: var(--title-text-color);
         font-weight: bold;
         font-weight: bold;
@@ -33,6 +33,12 @@
             letter-spacing: 0.03em;
             margin-bottom: 30px;
           }
+}
+
+@media screen and(max-width: 767px){
+  .advantages__title {
+    text-align: center;
+  }
 }
 @media screen and(min-width: 768px) {
 .advantages{
